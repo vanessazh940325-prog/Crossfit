@@ -324,7 +324,7 @@ table.board thead th {
   white-space: nowrap;
   background: var(--bg-card);
 }
-table.board thead th.col-athlete { text-align: left; }
+table.board thead th.col-athlete { text-align: center; }
 table.board thead th .wod-name { display: block; color: var(--bone); font-size: 0.72rem; margin-bottom: 2px; }
 
 table.board tbody td { padding: 14px; text-align: center; border-bottom: 1px solid var(--line); white-space: nowrap; }

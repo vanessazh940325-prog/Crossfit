@@ -133,6 +133,7 @@ function renderCategoria(catId) {
     <tr>
       <th class="col-rank">Puesto</th>
       <th class="col-athlete">Atleta</th>
+      <th class="col-total">Total</th>
       ${wods
         .map(
           (w) => `
@@ -141,7 +142,6 @@ function renderCategoria(catId) {
         <th>Puntos</th>`
         )
         .join("")}
-      <th>Total</th>
     </tr>`;
 
   const tbody = filas
@@ -158,8 +158,8 @@ function renderCategoria(catId) {
       <tr>
         <td class="col-rank"><span class="${rankBadgeClass(f.puestoGeneral)}">${f.puestoGeneral}°</span></td>
         <td class="col-athlete athlete-name">${f.nombre}</td>
+        <td class="col-total total-cell">${f.total} pts</td>
         ${wodCells}
-        <td class="total-cell">${f.total} pts</td>
       </tr>`;
     })
     .join("");
