@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leaderboard — Snaci Games</title>
+<meta name="description" content="Leaderboard en vivo de Snaci Games, competencia de CrossFit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">SNACI <span style="color:var(--brass)">GAMES</span> <small>CROSSFIT COMP.</small></div>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="leaderboard.html" class="is-active">Leaderboard</a>
+    </nav>
+  </div>
+</header>
+<div class="hazard"></div>
+
+<section class="lb-header">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span> En vivo</div>
+    <h2 class="block-title" id="cat-title">Leaderboard</h2>
+    <div class="tabs" id="tabs"></div>
+  </div>
+</section>
+
+<section class="lb-wrap">
+  <div class="wrap">
+    <div class="table-scroll">
+      <table class="board" aria-describedby="lb-note">
+        <caption>Leaderboard de la categoría</caption>
+        <thead id="board-head"></thead>
+        <tbody id="board-body"></tbody>
+      </table>
+    </div>
+    <p class="lb-note" id="lb-note">Si dos atletas empatan en un WOD, comparten el mismo lugar y los mismos puntos; el siguiente atleta salta el número correspondiente. El Puesto general lo define quién suma más puntos entre los WODs.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Snaci Games (CrossFit)</span>
+    <span><a href="index.html">Inicio</a> · Margarita 10, Ecatepec de Morelos</span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
