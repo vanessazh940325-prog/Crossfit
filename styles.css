@@ -407,3 +407,7 @@ td.col-rank, th.col-rank { position: sticky; left: 0; background: var(--bg-card)
             border-bottom: 1px solid var(--line);
         }
 }
+td.col-box, th.col-box {
+    text-align: left;
+    min-width: 140px;
+}

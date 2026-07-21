@@ -81,7 +81,7 @@ function computeCategoria(categoria) {
       };
     });
     const total = wodsCalc.reduce((sum, w) => sum + w.points, 0);
-    return { nombre: atleta.nombre, wods: wodsCalc, total };
+    return { nombre: atleta.nombre, box: atleta.box || "", wods: wodsCalc, total };
   });
 
   const totalScores = filas.map((f) => -f.total); // menor es mejor -> invertimos
@@ -133,6 +133,7 @@ function renderCategoria(catId) {
     <tr>
       <th class="col-rank">Puesto</th>
       <th class="col-athlete">Atleta</th>
+      <th class="col-box">Box</th>
       <th class="col-total">Total</th>
       ${wods
         .map(
@@ -158,6 +159,7 @@ function renderCategoria(catId) {
       <tr>
         <td class="col-rank"><span class="${rankBadgeClass(f.puestoGeneral)}">${f.puestoGeneral}°</span></td>
         <td class="col-athlete athlete-name">${f.nombre}</td>
+        <td class="col-box">${f.box || "—"}</td>
         <td class="col-total total-cell">${f.total} pts</td>
         ${wodCells}
       </tr>`;

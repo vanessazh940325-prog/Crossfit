@@ -21,6 +21,7 @@
 const SNACI_DATA = {
   categorias: [
     {
+      /*----PRINCIPIANTES FEMENIL------*/
       id: "principiantes-femenil",
       nombre: "Principiantes Femenil",
       wods: [
@@ -32,6 +33,7 @@ const SNACI_DATA = {
       atletas: [
         {
           nombre: "CHICAS GARAGES",
+          box: "Army's Garage",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -41,6 +43,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "VALKYRIES",
+          box: "Coach Erick",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -50,6 +53,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "DROGONAS LUNARYS",
+          box: "Dragons Crossfit",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -59,6 +63,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "LAS AMAZONAS",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -68,6 +73,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "BURPEES BABYS",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -77,6 +83,27 @@ const SNACI_DATA = {
         },
         {
           nombre: "ODISEAS TEAM",
+          box: "Snaci",
+          resultados: {
+            //ragnarok: { time: "12:34" }, //time o reps
+            //"valhalla-b": { reps: 180 }, //reps
+            //"valhalla-a": { time: "09:50" }, //time o reps
+            //excalibur: { reps: 200 }, // reps
+          },
+        },
+        {
+          nombre: "PEAK PAIR",
+          box: "Snaci",
+          resultados: {
+            //ragnarok: { time: "12:34" }, //time o reps
+            //"valhalla-b": { reps: 180 }, //reps
+            //"valhalla-a": { time: "09:50" }, //time o reps
+            //excalibur: { reps: 200 }, // reps
+          },
+        },
+        {
+          nombre: "BARBELL BEAUTIES",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -87,9 +114,7 @@ const SNACI_DATA = {
       ],
     },
 
-    /* Para agregar otra categoría (ej. "RX Femenil"), copia el bloque
-       de arriba, cambia el id/nombre/wods/atletas y agrégalo a este
-       arreglo. Aparecerá solo como una pestaña más en el leaderboard. */
+    /*----PRINCIPIANTES VARONIL------*/
     {
       id: "principiantes-varonil",
       nombre: "Principiantes Varonil",
@@ -102,6 +127,7 @@ const SNACI_DATA = {
       atletas: [
         {
           nombre: "SOUTH PARK",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -111,6 +137,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "JAWAR DUMBBELL",
+          box: "Jawar Crossfit",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -120,6 +147,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "KINGS DRAGONS",
+          box: "Dragons Crossfit",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -129,6 +157,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "ALPHA M&A",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -138,6 +167,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "LINCES",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -147,6 +177,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "BEAUTY&BEST",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -156,6 +187,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "FORCE DRAGON",
+          box: "Dragons Crossfit",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -165,6 +197,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "CHALK ADDICTS",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -174,6 +207,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "AFERRUCOS",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -183,6 +217,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "TEAM SANGRE",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -193,7 +228,7 @@ const SNACI_DATA = {
       ],
     },
 
-    /**/
+    /*----INTERMEDIOS FEMENIL------*/
 
     {
       id: "intermedios-femenil",
@@ -207,6 +242,7 @@ const SNACI_DATA = {
       atletas: [
         {
           nombre: "PACE AND POWER",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -216,6 +252,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "FELINAS",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -225,6 +262,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "LAS JETONAS DEL GARAGE",
+          box: "Army's Garage",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -232,6 +270,16 @@ const SNACI_DATA = {
             //excalibur: { reps: 200 }, // reps
           },
         },
+        {
+          nombre: "ATP-ERRITAS",
+          box: "Templo Crossfitnes",
+          resultados: {
+            //ragnarok: { time: "12:34" }, //time o reps
+            //"valhalla-b": { reps: 180 }, //reps
+            //"valhalla-a": { time: "09:50" }, //time o reps
+            //excalibur: { reps: 200 }, // reps
+          },
+        }, 
       ],
     },
 
@@ -249,6 +297,7 @@ const SNACI_DATA = {
       atletas: [
         {
           nombre: "ARMYS UNBROKEN",
+          box: "Army's Garage",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -258,6 +307,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "BLACK DRAGONS",
+          box: "Dragons Crossfit",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -267,6 +317,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "LA LEGIÓN N",
+          box: "Concepto N",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -291,6 +342,7 @@ const SNACI_DATA = {
       atletas: [
         {
           nombre: "ERICK LEZAMA",
+          box: "Snaci/Crossbones",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -300,6 +352,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "ALDO MARTÍNEZ",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -309,6 +362,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "CÉSAR GUERRA",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -318,6 +372,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "NESTOR OLIVARES",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -327,6 +382,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "RICARDO BENITEZ",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -336,6 +392,7 @@ const SNACI_DATA = {
         },
         {
           nombre: "ARI LECHUGA",
+          box: "Templo Crossfitnes",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
