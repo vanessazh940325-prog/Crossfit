@@ -11,94 +11,103 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header class="topbar">
-  <div class="wrap">
-    <div class="brand">SNACI <span style="color:var(--brass)">GAMES</span> <small>CROSSFIT COMP.</small></div>
-    <nav class="nav">
-        <a href="index.html" class="is-active">Inicio</a>
-        <a href="leaderboard.html">Leaderboard</a>
-        <a href="agenda.html">Agenda</a>
-    </nav>
-  </div>
-</header>
-<div class="hazard"></div>
-
-<section class="hero" style="background-image:url('hero-banner.jpg')">
-  <div class="wrap hero-inner">
-    <div class="eyebrow"><span class="dot"></span> Snaci Guadiana · Ecatepec de Morelos</div>
-    <p class="hero-sub">Tres pruebas. Un solo marcador. Ragnarok, Valhalla y Excalibur ponen a prueba fuerza, resistencia y carácter — el leaderboard se actualiza al momento con el mismo criterio que usan los jueces.</p>
-    <div class="cta-row">
-      <a href="leaderboard.html" class="btn btn-primary">Ver leaderboard</a>
-      <a href="#ubicacion" class="btn btn-ghost">Cómo llegar</a>
-    </div>
-    <div class="stat-strip">
-      <div class="stat"><div class="n">03</div><div class="l">WODs en competencia</div></div>
-      <div class="stat"><div class="n">5</div><div class="l">Categorías activas</div></div>
-      <div class="stat"><div class="n">100</div><div class="l">Pts al 1er lugar</div></div>
-    </div>
-  </div>
-</section>
-<div class="hazard"></div>
-
-<section class="block" id="ubicacion">
-  <div class="wrap">
-    <div class="block-head">
-      <div class="eyebrow"><span class="dot"></span> Información</div>
-      <h2 class="block-title">Dónde y cuándo</h2>
-    </div>
-    <div class="card-grid">
-        <div class="card">
-            <div class="rune"></div>
-            <h3>Ubicación</h3>
-            <a href="https://www.google.com/maps/place/snaci+guadiana/data=!4m2!3m1!1s0x85d1fb0047a9aea7:0xf1a9c719a7e4aaca?sa=X&ved=1t:242&ictx=111" target="_blank" rel="noopener">Snaci Guadiana</a>
-            <p class="muted">Margarita 10, Granjas Independencia B,<br>55290 Ecatepec de Morelos, Méx.</p>
+    <header class="topbar">
+        <div class="wrap">
+            <div class="brand">SNACI <span style="color:var(--brass)">GAMES</span> <small>CROSSFIT COMP.</small></div>
+            <nav class="nav" id="nav-menu">
+                <a href="index.html" class="is-active">Inicio</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="agenda.html">Agenda</a>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
         </div>
-      <div class="card">
-        <div class="rune"></div>
-        <h3>Horario de crossfit</h3>
-        <p>Lunes a viernes: 6:00 AM – 10:00 AM</p>
-        <p class="muted">Sábados/Domingos: 7:00 AM – 11:00 AM</p>
-      </div>
-      <div class="card">
-        <div class="rune"></div>
-        <h3>Contacto</h3>
-        <p><a href="tel:5594098038" style="border-bottom:1px solid var(--line)">55 9409 8038</a></p>
-        <div class="social-row">
-          <a href="https://facebook.com/p/Snaci-Guadiana-61558093144814/" target="_blank" rel="noopener">Facebook</a>
-          <a href="https://instagram.com/snaci_games" target="_blank" rel="noopener">Instagram</a>
+    </header>
+    <div class="hazard"></div>
+    <script>document.addEventListener("DOMContentLoaded", function () {
+      var menuBtn = document.getElementById("menu-toggle");
+      var navMenu = document.getElementById("nav-menu");
+      if (!menuBtn || !navMenu) return;
+      menuBtn.addEventListener("click", function () {
+        var isOpen = navMenu.classList.toggle("is-open");
+        menuBtn.setAttribute("aria-expanded", isOpen);
+      });
+    });</script>
+
+    <section class="hero" style="background-image:url('hero-banner.jpg')">
+        <div class="wrap hero-inner">
+            <div class="eyebrow"><span class="dot"></span> Snaci Guadiana · Ecatepec de Morelos</div>
+            <p class="hero-sub">Tres pruebas. Un solo marcador. Ragnarok, Valhalla y Excalibur ponen a prueba fuerza, resistencia y carácter — el leaderboard se actualiza al momento con el mismo criterio que usan los jueces.</p>
+            <div class="cta-row">
+                <a href="leaderboard.html" class="btn btn-primary">Ver leaderboard</a>
+                <a href="#ubicacion" class="btn btn-ghost">Cómo llegar</a>
+            </div>
+            <div class="stat-strip">
+                <div class="stat"><div class="n">03</div><div class="l">WODs en competencia</div></div>
+                <div class="stat"><div class="n">5</div><div class="l">Categorías activas</div></div>
+                <div class="stat"><div class="n">100</div><div class="l">Pts al 1er lugar</div></div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
+    <div class="hazard"></div>
 
-<section class="block">
-  <div class="wrap">
-    <div class="block-head">
-      <div class="eyebrow"><span class="dot"></span> Competencia</div>
-      <h2 class="block-title">Categorías</h2>
-    </div>
-    <div class="cat-grid" id="cat-grid"></div>
-  </div>
-</section>
+    <section class="block" id="ubicacion">
+        <div class="wrap">
+            <div class="block-head">
+                <div class="eyebrow"><span class="dot"></span> Información</div>
+                <h2 class="block-title">Dónde y cuándo</h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="rune"></div>
+                    <h3>Ubicación</h3>
+                    <a href="https://www.google.com/maps/place/snaci+guadiana/data=!4m2!3m1!1s0x85d1fb0047a9aea7:0xf1a9c719a7e4aaca?sa=X&ved=1t:242&ictx=111" target="_blank" rel="noopener">Snaci Guadiana</a>
+                    <p class="muted">Margarita 10, Granjas Independencia B,<br>55290 Ecatepec de Morelos, Méx.</p>
+                </div>
+                <div class="card">
+                    <div class="rune"></div>
+                    <h3>Horario de crossfit</h3>
+                    <p>Lunes a viernes: 6:00 AM – 10:00 AM</p>
+                    <p class="muted">Sábados/Domingos: 7:00 AM – 11:00 AM</p>
+                </div>
+                <div class="card">
+                    <div class="rune"></div>
+                    <h3>Contacto</h3>
+                    <p><a href="tel:5594098038" style="border-bottom:1px solid var(--line)">55 9409 8038</a></p>
+                    <div class="social-row">
+                        <a href="https://facebook.com/p/Snaci-Guadiana-61558093144814/" target="_blank" rel="noopener">Facebook</a>
+                        <a href="https://instagram.com/snaci_games" target="_blank" rel="noopener">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-  <div class="wrap">
-    <span>© 2026 Snaci Games (CrossFit)</span>
-    <span><a href="leaderboard.html">Leaderboard</a> · Margarita 10, Ecatepec de Morelos</span>
-  </div>
-</footer>
+    <section class="block">
+        <div class="wrap">
+            <div class="block-head">
+                <div class="eyebrow"><span class="dot"></span> Competencia</div>
+                <h2 class="block-title">Categorías</h2>
+            </div>
+            <div class="cat-grid" id="cat-grid"></div>
+        </div>
+    </section>
 
-<script src="data.js"></script>
-<script>
-  const grid = document.getElementById("cat-grid");
+    <footer>
+        <div class="wrap">
+            <span>© 2026 Snaci Games (CrossFit)</span>
+            <span><a href="leaderboard.html">Leaderboard</a> · Margarita 10, Ecatepec de Morelos</span>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script>const grid = document.getElementById("cat-grid");
   grid.innerHTML = SNACI_DATA.categorias.map((c, i) => `
     <a class="cat-card" href="leaderboard.html?cat=${c.id}">
       <div class="idx">${String(i + 1).padStart(2, "0")}</div>
       <h3>${c.nombre}</h3>
       <div class="go">Ver leaderboard →</div>
-    </a>`).join("");
-</script>
+    </a>`).join("");</script>
 </body>
 </html>
