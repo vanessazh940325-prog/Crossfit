@@ -547,3 +547,18 @@ table.board.board-compact {
             font-size: 0.78rem;
         }
 }
+table.board:not(.board-compact) td.col-athlete:nth-child(1),
+table.board:not(.board-compact) th.col-athlete:nth-child(1) {
+    left: 0;
+    min-width: 170px;
+    z-index: 3;
+    box-shadow: none;
+}
+
+table.board:not(.board-compact) td.col-athlete:nth-child(2),
+table.board:not(.board-compact) th.col-athlete:nth-child(2) {
+    left: 170px;
+    min-width: 150px;
+    z-index: 2;
+    box-shadow: 4px 0 6px -4px rgba(0,0,0,0.5);
+}
