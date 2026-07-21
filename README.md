@@ -2,7 +2,7 @@
 
 Sitio estático (HTML/CSS/JS puro, sin frameworks ni build). No necesita
 servidor: son solo archivos, así que se puede publicar gratis con
-**GitHub Pages**.
+**GitHub Pages****
 
 ## Archivos
 
