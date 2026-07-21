@@ -58,46 +58,6 @@ function rankBadgeClass(place) {
   return "rank-badge";
 }
 
-function computeCategoria(categoria) {
-  const { wods, atletas } = categoria;
-
-  // Por cada WOD, calculamos score y lugar de todos los atletas.
-  const porWod = wods.map((wod) => {
-    const scores = atletas.map((a) => scoreFor(wod, a.resultados[wod.id]));
-    const places = competitionRanks(scores);
-    return { wod, scores, places };
-  });
-
-  const filas = atletas.map((atleta, i) => {
-    const wodsCalc = porWod.map(({ wod, places }) => {
-      const resultado = atleta.resultados[wod.id];
-      const place = places[i];
-      const points = place == null ? 0 : pointsForPlace(place);
-      return {
-        wod,
-        label: resultLabel(wod, resultado),
-        place,
-        points,
-      };
-    });
-    const total = wodsCalc.reduce((sum, w) => sum + w.points, 0);
-    return { nombre: atleta.nombre, box: atleta.box || "", wods: wodsCalc, total };
-  });
-
-  const totalScores = filas.map((f) => -f.total); // menor es mejor -> invertimos
-  const overallPlaces = competitionRanks(totalScores);
-  filas.forEach((f, i) => (f.puestoGeneral = overallPlaces[i]));
-
-  // Orden visual: por puesto general, empates en el orden en que
-  // aparecen en data.js.
-  const orden = filas
-    .map((f, i) => ({ f, i }))
-    .sort((a, b) => a.f.puestoGeneral - b.f.puestoGeneral || a.i - b.i)
-    .map((x) => x.f);
-
-  return orden;
-}
-
 function renderTabs(categorias, activeId) {
   const tabs = document.getElementById("tabs");
   if (!tabs) return;
@@ -118,6 +78,35 @@ function renderTabs(categorias, activeId) {
     .getElementById("cat-select")
     .addEventListener("change", (e) => renderCategoria(e.target.value));
 }
+function computeCategoria(categoria) {
+  const { wods, atletas } = categoria;
+
+  const porWod = wods.map((wod) => {
+    const scores = atletas.map((a) => scoreFor(wod, a.resultados[wod.id]));
+    const places = competitionRanks(scores);
+    return { wod, scores, places };
+  });
+
+  const filas = atletas.map((atleta, i) => {
+    const wodsCalc = porWod.map(({ wod, places }) => {
+      const resultado = atleta.resultados[wod.id];
+      const place = places[i];
+      const points = place == null ? 0 : pointsForPlace(place);
+      return { wod, label: resultLabel(wod, resultado), place, points };
+    });
+    const total = wodsCalc.reduce((sum, w) => sum + w.points, 0);
+    return { nombre: atleta.nombre, box: atleta.box || "", wods: wodsCalc, total };
+  });
+
+  const totalScores = filas.map((f) => -f.total);
+  const overallPlaces = competitionRanks(totalScores);
+  filas.forEach((f, i) => (f.puestoGeneral = overallPlaces[i]));
+
+  return filas
+    .map((f, i) => ({ f, i }))
+    .sort((a, b) => a.f.puestoGeneral - b.f.puestoGeneral || a.i - b.i)
+    .map((x) => x.f);
+}
 
 function renderCategoria(catId) {
   const categoria = SNACI_DATA.categorias.find((c) => c.id === catId);
@@ -127,47 +116,61 @@ function renderCategoria(catId) {
   renderTabs(SNACI_DATA.categorias, catId);
 
   const filas = computeCategoria(categoria);
-  const wods = categoria.wods;
 
   const thead = `
     <tr>
+      <th class="col-toggle"></th>
       <th class="col-rank">Puesto</th>
       <th class="col-athlete">Atleta</th>
       <th class="col-box">Box</th>
       <th class="col-total">Total</th>
-      ${wods
-        .map(
-          (w) => `
-        <th><span class="wod-name">${w.label}</span>Resultado</th>
-        <th>Lugar</th>
-        <th>Puntos</th>`
-        )
-        .join("")}
     </tr>`;
 
   const tbody = filas
-    .map((f) => {
-      const wodCells = f.wods
+    .map((f, i) => {
+      const detailId = `wod-detail-${i}`;
+      const detailRows = f.wods
         .map(
           (w) => `
-        <td class="result-cell">${w.label || "—"}</td>
-        <td><span class="place-badge">${placeLabel(w.place)}</span></td>
-        <td class="points-cell">${w.place == null ? "—" : `${w.points} pts`}</td>`
+        <tr>
+          <td class="detail-wod">${w.wod.label}</td>
+          <td class="result-cell">${w.label || "—"}</td>
+          <td><span class="place-badge">${placeLabel(w.place)}</span></td>
+          <td class="points-cell">${w.place == null ? "—" : `${w.points} pts`}</td>
+        </tr>`
         )
         .join("");
+
       return `
-      <tr>
+      <tr class="main-row" data-target="${detailId}">
+        <td class="col-toggle"><span class="chevron">▸</span></td>
         <td class="col-rank"><span class="${rankBadgeClass(f.puestoGeneral)}">${f.puestoGeneral}°</span></td>
         <td class="col-athlete athlete-name">${f.nombre}</td>
         <td class="col-box">${f.box || "—"}</td>
         <td class="col-total total-cell">${f.total} pts</td>
-        ${wodCells}
+      </tr>
+      <tr class="detail-row" id="${detailId}">
+        <td></td>
+        <td colspan="4">
+          <table class="detail-table"><tbody>${detailRows}</tbody></table>
+        </td>
       </tr>`;
     })
     .join("");
 
   document.getElementById("board-head").innerHTML = thead;
   document.getElementById("board-body").innerHTML = tbody;
+
+  document.querySelectorAll(".main-row").forEach((row) => {
+    row.addEventListener("click", () => {
+      const detail = document.getElementById(row.dataset.target);
+      const chevron = row.querySelector(".chevron");
+      const isOpen = row.classList.contains("is-expanded");
+      detail.classList.toggle("is-open", !isOpen);
+      chevron.textContent = isOpen ? "▸" : "▾";
+      row.classList.toggle("is-expanded", !isOpen);
+    });
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
