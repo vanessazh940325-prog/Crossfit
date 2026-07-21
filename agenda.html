@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agenda — Snaci Games</title>
-<meta name="description" content="Horarios y heats de Snaci Games, competencia de CrossFit.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Algerian&family=Barlow:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=2">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda — Snaci Games</title>
+    <meta name="description" content="Horarios y heats de Snaci Games, competencia de CrossFit.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Algerian&family=Barlow:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
     <header class="topbar">
@@ -25,7 +25,8 @@
         </div>
     </header>
     <div class="hazard"></div>
-    <script>document.addEventListener("DOMContentLoaded", function () {
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
   var menuBtn = document.getElementById("menu-toggle");
   var navMenu = document.getElementById("nav-menu");
   if (!menuBtn || !navMenu) return;
@@ -53,245 +54,56 @@
                 <table class="board">
                     <thead>
                         <tr>
+                            <th class="col-athlete" style="text-align: center">Equipos</th>
+                            <th class="col-athlete" style="text-align: center">Categoría</th>
                             <th>Hora</th>
                             <th>Heat</th>
                             <th>Carril</th>
-                            <th class="col-athlete" style="text-align: center">Categoría</th>
-                            <th class="col-athlete" style="text-align: center">Equipos</th>
                         </tr>
                     </thead>
                     <tbody>
 
                         <!-- ===================== RAGNAROK PRINCIPIANTES FEMENIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">CHICAS GARAGES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">VALKYRIES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">DROGONAS LUNARYS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">LAS AMAZONAS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">BURPEES BABYS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">ODISEAS TEAM</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">PEAK PAIR</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">BARBELL BEAUTIES</td>
-                        </tr>
+                        <tr><td class="col-athlete">CHICAS GARAGES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">VALKYRIES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">DROGONAS LUNARYS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">LAS AMAZONAS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">BURPEES BABYS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">ODISEAS TEAM</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">PEAK PAIR</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">BARBELL BEAUTIES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+
                         <!-- ===================== RAGNAROK Intermedios FEMENIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">PACE AND POWER</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">FELINAS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">LAS JETONAS DEL GARAGE</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">ATP-ERRITAS</td>
-                        </tr>
+                        <tr><td class="col-athlete">PACE AND POWER</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">FELINAS</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">LAS JETONAS DEL GARAGE</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">ATP-ERRITAS</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 4</td></tr>
+
                         <!-- ===================== RAGNAROK PRINCIPIANTES VARONIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">SOUTH PARK</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">JAWAR DUMBBELL</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">KINGS DRAGONS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">ALPHA M&amp;A</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">LINCES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">BEAUTY&amp;BEST</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">FORCE DRAGON</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">CHALK ADDICTS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">AFERRUCOS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">TEAM SANGRE</td>
-                        </tr>
+                        <tr><td class="col-athlete">SOUTH PARK</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">JAWAR DUMBBELL</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">KINGS DRAGONS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">ALPHA M&amp;A</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">LINCES</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">BEAUTY&amp;BEST</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">FORCE DRAGON</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">CHALK ADDICTS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">AFERRUCOS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">TEAM SANGRE</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
 
                         <!-- ===================== RAGNAROK INTERMEDIOS VARONIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">ARMYS UNBROKEN</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">BLACK DRAGONS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">LA LEGIÓN N</td>
-                        </tr>
+                        <tr><td class="col-athlete">ARMYS UNBROKEN</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">BLACK DRAGONS</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">LA LEGIÓN N</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 3</td></tr>
 
                         <!-- ===================== RAGNAROK AVANZADOS ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ERICK LEZAMA</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ALDO MARTÍNEZ</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">CÉSAR GUERRA</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">NESTOR OLIVARES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">RICARDO BENITEZ</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 6</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ARI LECHUGA</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td class="col-athlete"></td>
-                            <td class="col-athlete"></td>
-                        </tr>
+                        <tr><td class="col-athlete">ERICK LEZAMA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">ALDO MARTÍNEZ</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">CÉSAR GUERRA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">NESTOR OLIVARES</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">RICARDO BENITEZ</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">ARI LECHUGA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat </td><td>Carril 6</td></tr>
+                        <tr><td class="col-athlete"></td><td class="col-athlete"></td><td></td><td></td><td></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -309,245 +121,56 @@
                 <table class="board">
                     <thead>
                         <tr>
+                            <th class="col-athlete">Equipos</th>
+                            <th class="col-athlete">Categoría</th>
                             <th>Hora</th>
                             <th>Heat</th>
                             <th>Carril</th>
-                            <th class="col-athlete">Categoría</th>
-                            <th class="col-athlete">Equipos</th>
                         </tr>
                     </thead>
                     <tbody>
 
                         <!-- ===================== VALHALLA PRINCIPIANTES VARONIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">SOUTH PARK</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">JAWAR DUMBBELL</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">KINGS DRAGONS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">ALPHA M&amp;A</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">LINCES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">BEAUTY&amp;BEST</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">FORCE DRAGON</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">CHALK ADDICTS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">AFERRUCOS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">TEAM SANGRE</td>
-                        </tr>
+                        <tr><td class="col-athlete">SOUTH PARK</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">JAWAR DUMBBELL</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">KINGS DRAGONS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">ALPHA M&amp;A</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">LINCES</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">BEAUTY&amp;BEST</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">FORCE DRAGON</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">CHALK ADDICTS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">AFERRUCOS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">TEAM SANGRE</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
 
                         <!-- ===================== VALHALLA INTERMEDIOS VARONIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">ARMYS UNBROKEN</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">BLACK DRAGONS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">LA LEGIÓN N</td>
-                        </tr>
+                        <tr><td class="col-athlete">ARMYS UNBROKEN</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">BLACK DRAGONS</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">LA LEGIÓN N</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 3</td></tr>
 
                         <!-- ===================== VALHALLA PRINCIPIANTES FEMENIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">CHICAS GARAGES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">VALKYRIES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">DROGONAS LUNARYS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">LAS AMAZONAS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">BURPEES BABYS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">ODISEAS TEAM</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">PEAK PAIR</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">BARBELL BEAUTIES</td>
-                        </tr>
+                        <tr><td class="col-athlete">CHICAS GARAGES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">VALKYRIES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">DROGONAS LUNARYS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">LAS AMAZONAS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">BURPEES BABYS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">ODISEAS TEAM</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">PEAK PAIR</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">BARBELL BEAUTIES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+
                         <!-- ===================== VALHALLA INTERMEDIOS FEMENIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">PACE AND POWER</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">FELINAS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">LAS JETONAS DEL GARAGE</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">ATP-ERRITAS</td>
-                        </tr>
+                        <tr><td class="col-athlete">PACE AND POWER</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">FELINAS</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">LAS JETONAS DEL GARAGE</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">ATP-ERRITAS</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 4</td></tr>
+
                         <!-- ===================== VALHALLA AVANZADOS ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ERICK LEZAMA</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ALDO MARTÍNEZ</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">CÉSAR GUERRA</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">NESTOR OLIVARES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">RICARDO BENITEZ</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 6</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ARI LECHUGA</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td class="col-athlete"></td>
-                            <td class="col-athlete"></td>
-                        </tr>
+                        <tr><td class="col-athlete">ERICK LEZAMA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">ALDO MARTÍNEZ</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">CÉSAR GUERRA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">NESTOR OLIVARES</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">RICARDO BENITEZ</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">ARI LECHUGA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 6</td></tr>
+                        <tr><td class="col-athlete"></td><td class="col-athlete"></td><td></td><td></td><td></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -565,244 +188,55 @@
                 <table class="board">
                     <thead>
                         <tr>
+                            <th class="col-athlete">Equipos</th>
+                            <th class="col-athlete">Categoría</th>
                             <th>Hora</th>
                             <th>Heat</th>
                             <th>Carril</th>
-                            <th class="col-athlete">Categoría</th>
-                            <th class="col-athlete">Equipos</th>
                         </tr>
                     </thead>
                     <tbody>
                         <!-- ===================== EXCALIBUR PRINCIPIANTES FEMENIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">CHICAS GARAGES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">VALKYRIES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">DROGONAS LUNARYS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">LAS AMAZONAS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">BURPEES BABYS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">ODISEAS TEAM</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">PEAK PAIR</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes femenil</td>
-                            <td class="col-athlete">BARBELL BEAUTIES</td>
-                        </tr>
+                        <tr><td class="col-athlete">CHICAS GARAGES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">VALKYRIES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">DROGONAS LUNARYS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">LAS AMAZONAS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">BURPEES BABYS</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">ODISEAS TEAM</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">PEAK PAIR</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">BARBELL BEAUTIES</td><td class="col-athlete">Principiantes femenil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+
                         <!-- ===================== EXCALIBUR Intermedios FEMENIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">PACE AND POWER</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">FELINAS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">LAS JETONAS DEL GARAGE</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Intermedios Femenil</td>
-                            <td class="col-athlete">ATP-ERRITAS</td>
-                        </tr>
+                        <tr><td class="col-athlete">PACE AND POWER</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">FELINAS</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">LAS JETONAS DEL GARAGE</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">ATP-ERRITAS</td><td class="col-athlete">Intermedios Femenil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 4</td></tr>
+
                         <!-- ===================== EXCALIBUR PRINCIPIANTES VARONIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">SOUTH PARK</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">JAWAR DUMBBELL</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">KINGS DRAGONS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">ALPHA M&amp;A</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">LINCES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">BEAUTY&amp;BEST</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">FORCE DRAGON</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">CHALK ADDICTS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">AFERRUCOS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat </td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Principiantes Varonil</td>
-                            <td class="col-athlete">TEAM SANGRE</td>
-                        </tr>
+                        <tr><td class="col-athlete">SOUTH PARK</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">JAWAR DUMBBELL</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">KINGS DRAGONS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">ALPHA M&amp;A</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">LINCES</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">BEAUTY&amp;BEST</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">FORCE DRAGON</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">CHALK ADDICTS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">AFERRUCOS</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">TEAM SANGRE</td><td class="col-athlete">Principiantes Varonil</td><td>0:00 AM</td><td>Heat </td><td>Carril 5</td></tr>
 
                         <!-- ===================== EXCALIBUR INTERMEDIOS VARONIL ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">ARMYS UNBROKEN</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">BLACK DRAGONS</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Intermedios Varonil</td>
-                            <td class="col-athlete">LA LEGIÓN N</td>
-                        </tr>
+                        <tr><td class="col-athlete">ARMYS UNBROKEN</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">BLACK DRAGONS</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">LA LEGIÓN N</td><td class="col-athlete">Intermedios Varonil</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 3</td></tr>
 
                         <!-- ===================== EXCALIBUR AVANZADOS ===================== -->
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 1</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ERICK LEZAMA</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 2</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ALDO MARTÍNEZ</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 3</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">CÉSAR GUERRA</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 4</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">NESTOR OLIVARES</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 5</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">RICARDO BENITEZ</td>
-                        </tr>
-                        <tr>
-                            <td>0:00 AM</td>
-                            <td>Heat 1</td>
-                            <td>Carril 6</td>
-                            <td class="col-athlete">Avanzados</td>
-                            <td class="col-athlete">ARI LECHUGA</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td class="col-athlete"></td>
-                            <td class="col-athlete"></td>
-                        </tr>
+                        <tr><td class="col-athlete">ERICK LEZAMA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 1</td></tr>
+                        <tr><td class="col-athlete">ALDO MARTÍNEZ</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 2</td></tr>
+                        <tr><td class="col-athlete">CÉSAR GUERRA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 3</td></tr>
+                        <tr><td class="col-athlete">NESTOR OLIVARES</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 4</td></tr>
+                        <tr><td class="col-athlete">RICARDO BENITEZ</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 5</td></tr>
+                        <tr><td class="col-athlete">ARI LECHUGA</td><td class="col-athlete">Avanzados</td><td>0:00 AM</td><td>Heat 1</td><td>Carril 6</td></tr>
+                        <tr><td class="col-athlete"></td><td class="col-athlete"></td><td></td><td></td><td></td></tr>
                     </tbody>
                 </table>
             </div>
