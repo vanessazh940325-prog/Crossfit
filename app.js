@@ -105,15 +105,18 @@ function renderTabs(categorias, activeId) {
     tabs.style.display = "none";
     return;
   }
-  tabs.innerHTML = categorias
-    .map(
-      (c) =>
-        `<button class="tab${c.id === activeId ? " is-active" : ""}" data-cat="${c.id}">${c.nombre}</button>`
-    )
-    .join("");
-  tabs.querySelectorAll(".tab").forEach((btn) => {
-    btn.addEventListener("click", () => renderCategoria(btn.dataset.cat));
-  });
+  tabs.innerHTML = `
+    <select id="cat-select" class="cat-select">
+      ${categorias
+      .map(
+        (c) =>
+          `<option value="${c.id}"${c.id === activeId ? " selected" : ""}>${c.nombre}</option>`
+      )
+      .join("")}
+    </select>`;
+  document
+    .getElementById("cat-select")
+    .addEventListener("change", (e) => renderCategoria(e.target.value));
 }
 
 function renderCategoria(catId) {
