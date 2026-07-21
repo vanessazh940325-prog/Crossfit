@@ -561,3 +561,37 @@ table.board:not(.board-compact) th.col-athlete:nth-child(2) {
     position: static;
     box-shadow: none;
 }
+css
+.lb-wrap ~ section.block table.board,
+section.block table.board {
+    font-size: 0.78rem;
+}
+
+    section.block table.board thead th,
+    section.block table.board tbody td {
+        padding: 8px 6px;
+        white-space: normal;
+    }
+
+table.board:not(.board-compact) td.col-athlete:nth-child(1),
+table.board:not(.board-compact) th.col-athlete:nth-child(1) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+@media (max-width: 640px) {
+    section.block table.board {
+        font-size: 0.7rem;
+    }
+
+        section.block table.board thead th,
+        section.block table.board tbody td {
+            padding: 6px 4px;
+        }
+
+    table.board:not(.board-compact) td.col-athlete:nth-child(1),
+    table.board:not(.board-compact) th.col-athlete:nth-child(1) {
+        min-width: 90px;
+        max-width: 90px;
+    }
+}
