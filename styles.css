@@ -671,8 +671,8 @@ section.block table.board th.col-athlete:nth-child(3) {
 }
 section.block table.board td.col-athlete:nth-child(4),
 section.block table.board th.col-athlete:nth-child(4) {
-    min-width: 5px;
-    max-width: 5px;
+    min-width: 4px;
+    max-width: 4px;
     white-space: normal;
     font-size: 0.72rem;
 }
