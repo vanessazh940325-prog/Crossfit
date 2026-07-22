@@ -35,20 +35,20 @@ const SNACI_DATA = {
           nombre: "CHICAS GARAGES",
           box: "Army's Garage",
           resultados: {
-            ragnarok: { time: "12:34" }, //time o reps
-            "valhalla-b": { reps: 180 }, //reps
-            "valhalla-a": { time: "09:50" }, //time o reps
-            excalibur: { reps: 200 }, // reps
+            //ragnarok: { time: "12:34" }, //time o reps
+            //"valhalla-b": { reps: 180 }, //reps
+            //"valhalla-a": { time: "09:50" }, //time o reps
+            //excalibur: { reps: 200 }, // reps
           },
         },
         {
           nombre: "VALKYRIES",
           box: "Coach Erick",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            //ragnarok: { time: "11:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
-            //excalibur: { reps: 200 }, // reps
+            //excalibur: { reps: 100 }, // reps
           },
         },
         {
