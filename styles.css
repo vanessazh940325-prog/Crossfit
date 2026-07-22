@@ -377,11 +377,19 @@ table.board tbody tr:hover td { background: rgba(62,124,166,0.08); }
 .lb-note { margin-top: 18px; font-size: 0.82rem; color: var(--bone-dim); }
 
 @media (max-width: 640px) {
-  .hero { min-height: 62vh; clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%); }
-  section.block { padding: 54px 0; }
-  .nav { display: none; }
-}
-.menu-toggle {
+    .hero {
+        min-height: 72vh;
+        background-position: center 15%;
+    }
+
+    section.block {
+        padding: 54px 0;
+    }
+
+    .nav {
+        display: none;
+    }
+}.menu-toggle {
     display: none;
     background: none;
     border: none;
