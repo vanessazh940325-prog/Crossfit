@@ -595,10 +595,3 @@ table.board:not(.board-compact) th.col-athlete:nth-child(1) {
         max-width: 90px;
     }
 }
-@media (max-width: 640px) {
-    .hero {
-        min-height: 0;
-        aspect-ratio: 1983 / 793;
-        background-position: center center;
-    }
-}
