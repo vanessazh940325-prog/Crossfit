@@ -283,7 +283,7 @@ const SNACI_DATA = {
       ],
     },
 
-    /**/
+    /*----INTERMEDIOS VARONIL------*/
 
     {
       id: "intermedios-varonil",
@@ -325,10 +325,20 @@ const SNACI_DATA = {
             //excalibur: { reps: 200 }, // reps
           },
         },
+        {
+          nombre: "INDECISOS",
+          box: "Snaci",
+          resultados: {
+            //ragnarok: { time: "12:34" }, //time o reps
+            //"valhalla-b": { reps: 180 }, //reps
+            //"valhalla-a": { time: "09:50" }, //time o reps
+            //excalibur: { reps: 200 }, // reps
+          },
+        },
       ],
     },
 
-    /**/
+    /*----AVANZADOS------*/
 
     {
       id: "avanzados",
