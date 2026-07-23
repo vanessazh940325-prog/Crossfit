@@ -129,7 +129,10 @@ function renderCategoria(catId) {
   const tbody = filas
     .map((f, i) => {
       const detailId = `wod-detail-${i}`;
+      //const detailRows = f.wods
+      //.map(
       const detailRows = f.wods
+        .filter((w) => !w.wod.oculto)
         .map(
           (w) => `
         <tr>

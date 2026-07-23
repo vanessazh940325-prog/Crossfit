@@ -29,6 +29,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
+        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true},
       ],
       atletas: [
         {
@@ -39,6 +40,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -49,16 +51,18 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { reps: 140 },//time o reps
           },
         },
         {
           nombre: "BARBELL BEAUTIES",
           box: "Beauty and Beast",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            //ragnarok: { time: "12:35" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:50" },//time o reps
           },
         },
         {
@@ -69,6 +73,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -79,6 +84,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 100 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -89,6 +95,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },                     
         {
@@ -99,6 +106,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },     
         {
@@ -109,6 +117,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
       ],
@@ -123,6 +132,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
+        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true },
       ],
       atletas: [
         {
@@ -133,6 +143,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -143,6 +154,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -153,6 +165,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -163,6 +176,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -173,6 +187,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -183,6 +198,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -193,6 +209,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -203,6 +220,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -213,6 +231,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -223,6 +242,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
       ],
@@ -238,6 +258,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
+        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true },
       ],
       atletas: [
         {
@@ -248,6 +269,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -258,6 +280,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -268,6 +291,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -278,6 +302,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         }, 
       ],
@@ -293,6 +318,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
+        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true },
       ],
       atletas: [
         {
@@ -303,6 +329,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -313,6 +340,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -323,6 +351,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -333,6 +362,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
       ],
@@ -348,6 +378,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
+        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true },
       ],
       atletas: [
         {
@@ -358,6 +389,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -368,6 +400,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -378,6 +411,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -388,6 +422,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },      
         {
@@ -398,6 +433,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },       
         {
@@ -408,6 +444,7 @@ const SNACI_DATA = {
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
+            //sorpresa: { time: "05:30" },//time o reps
           },
         },
       ],

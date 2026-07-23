@@ -720,11 +720,11 @@ table.board.board-agenda {
 
     table.board.board-agenda td.col-athlete,
     table.board.board-agenda th.col-athlete {
-        width: 45%;
+        width: 42%;
     }
 
 .col-horario {
-    width: 55%;
+    width: 58%;
     white-space: nowrap;
     font-size: 0.74rem;
 }
