@@ -650,8 +650,8 @@ table.board:not(.board-compact) th.col-athlete:nth-child(1) {
 
 section.block table.board td.col-athlete:nth-child(2),
 section.block table.board th.col-athlete:nth-child(2) {
-    min-width: 50px;
-    max-width: 50px;
+    min-width: 60px;
+    max-width: 60px;
     white-space: normal;
     font-size: 0.72rem;
 }
@@ -720,6 +720,23 @@ table.board.board-agenda {
 
     table.board.board-agenda td.col-athlete,
     table.board.board-agenda th.col-athlete {
+        width: 45%;
+    }
+
+.col-horario {
+    width: 55%;
+    white-space: nowrap;
+    font-size: 0.74rem;
+}
+
+@media (max-width: 400px) {
+    .col-horario {
+        font-size: 0.66rem;
+    }
+}
+
+    table.board.board-agenda td.col-athlete,
+    table.board.board-agenda th.col-athlete {
         position: static;
         left: auto;
         box-shadow: none;
@@ -727,4 +744,42 @@ table.board.board-agenda {
 
 .table-scroll.no-scroll {
     overflow-x: visible;
+}
+.cat-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 12px 4px;
+    border-bottom: 1px solid var(--line);
+    user-select: none;
+}
+
+    .cat-toggle .cat-title {
+        font-family: var(--display);
+        text-transform: uppercase;
+        font-size: 1rem;
+        margin: 0;
+        color: var(--bone);
+    }
+
+    .cat-toggle .chevron-wod {
+        font-family: var(--mono);
+        color: var(--bone-dim);
+        font-size: 0.9rem;
+        transition: transform 0.15s ease;
+    }
+
+    .cat-toggle.is-open .chevron-wod {
+        transform: rotate(90deg);
+    }
+
+.cat-block {
+    margin-bottom: 4px;
+}
+
+    .cat-block .wod-body {
+        padding: 10px 4px 22px;
+    }
+
 }
