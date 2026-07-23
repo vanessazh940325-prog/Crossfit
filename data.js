@@ -42,18 +42,8 @@ const SNACI_DATA = {
           },
         },
         {
-          nombre: "VALKYRIES",
-          box: "Coach Erick",
-          resultados: {
-            //ragnarok: { time: "11:34" }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
-            //excalibur: { reps: 100 }, // reps
-          },
-        },
-        {
-          nombre: "DROGONAS LUNARYS",
-          box: "Dragons Crossfit",
+          nombre: "LAS AMAZONAS",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -62,8 +52,8 @@ const SNACI_DATA = {
           },
         },
         {
-          nombre: "LAS AMAZONAS",
-          box: "Snaci",
+          nombre: "BARBELL BEAUTIES",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -82,15 +72,25 @@ const SNACI_DATA = {
           },
         },
         {
-          nombre: "ODISEAS TEAM",
-          box: "Snaci",
+          nombre: "VALKYRIES",
+          box: "Coach Erick",
+          resultados: {
+            //ragnarok: { time: "11:34" }, //time o reps
+            //"valhalla-b": { reps: 180 }, //reps
+            //"valhalla-a": { time: "09:50" }, //time o reps
+            //excalibur: { reps: 100 }, // reps
+          },
+        },
+        {
+          nombre: "DROGONAS LUNARYS",
+          box: "Dragons Crossfit",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
           },
-        },
+        },                     
         {
           nombre: "PEAK PAIR",
           box: "Snaci",
@@ -100,10 +100,10 @@ const SNACI_DATA = {
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
           },
-        },
+        },     
         {
-          nombre: "BARBELL BEAUTIES",
-          box: "Beauty and Beast",
+          nombre: "ODISEAS TEAM",
+          box: "Snaci",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -351,8 +351,8 @@ const SNACI_DATA = {
       ],
       atletas: [
         {
-          nombre: "ERICK LEZAMA",
-          box: "Snaci/Crossbones",
+          nombre: "RICARDO BENITEZ",
+          box: "Beauty and Beast",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -361,8 +361,8 @@ const SNACI_DATA = {
           },
         },
         {
-          nombre: "ALDO MARTÍNEZ",
-          box: "Snaci",
+          nombre: "ERICK LEZAMA",
+          box: "Snaci/Crossbones",
           resultados: {
             //ragnarok: { time: "12:34" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
@@ -381,6 +381,16 @@ const SNACI_DATA = {
           },
         },
         {
+          nombre: "ALDO MARTÍNEZ",
+          box: "Snaci",
+          resultados: {
+            //ragnarok: { time: "12:34" }, //time o reps
+            //"valhalla-b": { reps: 180 }, //reps
+            //"valhalla-a": { time: "09:50" }, //time o reps
+            //excalibur: { reps: 200 }, // reps
+          },
+        },      
+        {
           nombre: "NESTOR OLIVARES",
           box: "Beauty and Beast",
           resultados: {
@@ -389,17 +399,7 @@ const SNACI_DATA = {
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
           },
-        },
-        {
-          nombre: "RICARDO BENITEZ",
-          box: "Beauty and Beast",
-          resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
-            //excalibur: { reps: 200 }, // reps
-          },
-        },
+        },       
         {
           nombre: "ARI LECHUGA",
           box: "Templo Crossfitnes",

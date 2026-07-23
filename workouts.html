@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workouts — Snaci Games</title>
+<meta name="description" content="Los WODs de Snaci Games: Ragnarok, Valhalla y Excalibur, por categoría.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Algerian&family=Barlow:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+    <header class="topbar">
+        <div class="wrap">
+            <div class="brand">SNACI <span style="color:var(--brass)">GAMES</span> <small>CROSSFIT COMP.</small></div>
+            <nav class="nav" id="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="agenda.html">Agenda</a>
+                <a href="workouts.html" class="is-active">Workouts</a>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+    <div class="hazard"></div>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var menuBtn = document.getElementById("menu-toggle");
+      var navMenu = document.getElementById("nav-menu");
+      if (!menuBtn || !navMenu) return;
+      menuBtn.addEventListener("click", function () {
+        var isOpen = navMenu.classList.toggle("is-open");
+        menuBtn.setAttribute("aria-expanded", isOpen);
+      });
+    });
+    </script>
+
+    <section class="lb-header">
+        <div class="wrap">
+            <div class="eyebrow"><span class="dot"></span> Los 3 WODs</div>
+            <h2 class="block-title">Workouts</h2>
+        </div>
+    </section>
+
+    <!-- ===================== RAGNAROK ===================== -->
+    <section class="block">
+        <div class="wrap">
+            <div class="block-head wod-toggle" data-target="wod-ragnarok-w">
+                <div class="eyebrow"><span class="dot"></span> WOD 1</div>
+                <h2 class="block-title">Ragnarok</h2>
+                <span class="chevron-wod">▸</span>
+            </div>
+            <div class="wod-body" id="wod-ragnarok-w">
+                <div class="wod-banner">
+                    <img src="ragnarok.jpg" alt="WOD Ragnarok">
+                </div>
+                <div class="workout-grid">
+                    <div class="workout-card">
+                        <div class="cat-label">Principiantes</div>
+                        <img src="ragnarok-principiantes.jpg" alt="Ragnarok Principiantes">
+                    </div>
+                    <div class="workout-card">
+                        <div class="cat-label">Intermedios</div>
+                        <img src="ragnarok-intermedios.jpg" alt="Ragnarok Intermedios">
+                    </div>
+                    <div class="workout-card">
+                        <div class="cat-label">Avanzados</div>
+                        <img src="ragnarok-avanzados.jpg" alt="Ragnarok Avanzados">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== VALHALLA ===================== -->
+    <section class="block">
+        <div class="wrap">
+            <div class="block-head wod-toggle" data-target="wod-valhalla-w">
+                <div class="eyebrow"><span class="dot"></span> WOD 2</div>
+                <h2 class="block-title">Valhalla</h2>
+                <span class="chevron-wod">▸</span>
+            </div>
+            <div class="wod-body" id="wod-valhalla-w">
+                <div class="wod-banner">
+                    <img src="valhalla.jpg" alt="WOD Valhalla">
+                </div>
+                <div class="workout-grid">
+                    <div class="workout-card">
+                        <div class="cat-label">Principiantes</div>
+                        <img src="valhalla-principiantes.jpg" alt="Valhalla Principiantes">
+                    </div>
+                    <div class="workout-card">
+                        <div class="cat-label">Intermedios</div>
+                        <img src="valhalla-intermedios.jpg" alt="Valhalla Intermedios">
+                    </div>
+                    <div class="workout-card">
+                        <div class="cat-label">Avanzados</div>
+                        <img src="valhalla-avanzados.jpg" alt="Valhalla Avanzados">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EXCALIBUR ===================== -->
+    <section class="block">
+        <div class="wrap">
+            <div class="block-head wod-toggle" data-target="wod-excalibur-w">
+                <div class="eyebrow"><span class="dot"></span> WOD 3</div>
+                <h2 class="block-title">Excalibur</h2>
+                <span class="chevron-wod">▸</span>
+            </div>
+            <div class="wod-body" id="wod-excalibur-w">
+                <div class="wod-banner">
+                    <img src="excalibur.jpg" alt="WOD Excalibur">
+                </div>
+                <div class="workout-grid">
+                    <div class="workout-card">
+                        <div class="cat-label">Principiantes</div>
+                        <img src="excalibur-principiantes.jpg" alt="Excalibur Principiantes">
+                    </div>
+                    <div class="workout-card">
+                        <div class="cat-label">Intermedios</div>
+                        <img src="excalibur-intermedios.jpg" alt="Excalibur Intermedios">
+                    </div>
+                    <div class="workout-card">
+                        <div class="cat-label">Avanzados</div>
+                        <img src="excalibur-avanzados.jpg" alt="Excalibur Avanzados">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <span>© 2026 Snaci Games (CrossFit)</span>
+            <span><a href="index.html">Inicio</a> · Margarita 10, Ecatepec de Morelos</span>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".wod-toggle").forEach(function (header) {
+        header.addEventListener("click", function () {
+          var body = document.getElementById(header.dataset.target);
+          if (!body) return;
+          var isOpen = body.classList.toggle("is-open");
+          header.classList.toggle("is-open", isOpen);
+        });
+      });
+    });
+    </script>
+</body>
+</html>
