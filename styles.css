@@ -650,8 +650,8 @@ table.board:not(.board-compact) th.col-athlete:nth-child(1) {
 
 section.block table.board td.col-athlete:nth-child(2),
 section.block table.board th.col-athlete:nth-child(2) {
-    min-width: 30px;
-    max-width: 30px;
+    min-width: 50px;
+    max-width: 50px;
     white-space: normal;
     font-size: 0.72rem;
 }
@@ -666,20 +666,6 @@ section.block table.board td.col-athlete:nth-child(3),
 section.block table.board th.col-athlete:nth-child(3) {
     min-width: 3px;
     max-width: 3px;
-    white-space: normal;
-    font-size: 0.72rem;
-}
-section.block table.board td.col-athlete:nth-child(4),
-section.block table.board th.col-athlete:nth-child(4) {
-    min-width: 4px;
-    max-width: 4px;
-    white-space: normal;
-    font-size: 0.72rem;
-}
-section.block table.board td.col-athlete:nth-child(5),
-section.block table.board th.col-athlete:nth-child(5) {
-    min-width: 5px;
-    max-width: 5px;
     white-space: normal;
     font-size: 0.72rem;
 }
@@ -721,3 +707,24 @@ section.block table.board th.col-athlete:nth-child(5) {
         color: var(--ember);
         padding: 10px 4px 2px;
     }
+.col-horario {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    white-space: normal;
+}
+table.board.board-agenda {
+    min-width: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+    table.board.board-agenda td.col-athlete,
+    table.board.board-agenda th.col-athlete {
+        position: static;
+        left: auto;
+        box-shadow: none;
+    }
+
+.table-scroll.no-scroll {
+    overflow-x: visible;
+}
