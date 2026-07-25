@@ -385,7 +385,7 @@ const SNACI_DATA = {
           nombre: "RICARDO BENITEZ",
           box: "Beauty and Beast",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 967 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -396,7 +396,7 @@ const SNACI_DATA = {
           nombre: "ERICK LEZAMA",
           box: "Snaci/Crossbones",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 963 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -407,7 +407,7 @@ const SNACI_DATA = {
           nombre: "CÉSAR GUERRA",
           box: "Beauty and Beast",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 965 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -418,7 +418,7 @@ const SNACI_DATA = {
           nombre: "ALDO MARTÍNEZ",
           box: "Snaci",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 968 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -429,7 +429,7 @@ const SNACI_DATA = {
           nombre: "NESTOR OLIVARES",
           box: "Beauty and Beast",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 956 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -440,7 +440,7 @@ const SNACI_DATA = {
           nombre: "ARI LECHUGA",
           box: "Templo Crossfitnes",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 966 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
