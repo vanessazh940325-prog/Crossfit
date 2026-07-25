@@ -266,8 +266,8 @@ const SNACI_DATA = {
           box: "Snaci",
           resultados: {
             ragnarok: { reps: 1243 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 172 }, //reps
+            "valhalla-a": { reps: 81 }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -277,8 +277,8 @@ const SNACI_DATA = {
           box: "Snaci",
           resultados: {
             ragnarok: { reps: 1039 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 180 }, //reps
+            "valhalla-a": { time: "05:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -288,8 +288,8 @@ const SNACI_DATA = {
           box: "Army's Garage",
           resultados: {
             ragnarok: { reps: 1139 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 182 }, //reps
+            "valhalla-a": { reps: 70 }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -299,8 +299,8 @@ const SNACI_DATA = {
           box: "Templo Crossfitnes",
           resultados: {
             ragnarok: { reps: 1252 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 160 }, //reps
+            "valhalla-a": { reps: 74 }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -325,7 +325,7 @@ const SNACI_DATA = {
           nombre: "ARMYS UNBROKEN",
           box: "Army's Garage",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 1248 }, //time o reps
             "valhalla-b": { reps: 181 }, //reps
             "valhalla-a": { time: "04:49" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -336,7 +336,7 @@ const SNACI_DATA = {
           nombre: "BLACK DRAGONS",
           box: "Dragons Crossfit",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 1041 }, //time o reps
             "valhalla-b": { reps: 145 }, //reps
             "valhalla-a": { time: "07:18" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -347,7 +347,7 @@ const SNACI_DATA = {
           nombre: "LA LEGIÓN N",
           box: "Concepto N",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { time: "12:44" }, //time o reps
             "valhalla-b": { reps: 190 }, //reps
             "valhalla-a": { time: "04:42" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -358,7 +358,7 @@ const SNACI_DATA = {
           nombre: "INDECISOS",
           box: "Snaci",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 1039 }, //time o reps
             "valhalla-b": { reps: 146 }, //reps
             "valhalla-a": { time: "05:40" }, //time o reps
             //excalibur: { reps: 200 }, // reps
