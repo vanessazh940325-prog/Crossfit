@@ -336,7 +336,7 @@ const SNACI_DATA = {
           nombre: "BLACK DRAGONS",
           box: "Dragons Crossfit",
           resultados: {
-            ragnarok: { reps: 1041 }, //time o reps
+            ragnarok: { reps: 1040 }, //time o reps
             "valhalla-b": { reps: 145 }, //reps
             "valhalla-a": { time: "07:18" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -386,8 +386,8 @@ const SNACI_DATA = {
           box: "Beauty and Beast",
           resultados: {
             ragnarok: { reps: 967 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 135 }, //reps
+            "valhalla-a": { time: "02:32" }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -397,8 +397,8 @@ const SNACI_DATA = {
           box: "Snaci/Crossbones",
           resultados: {
             ragnarok: { reps: 963 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 0 }, //reps
+            "valhalla-a": { time: "02:34" }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -408,8 +408,8 @@ const SNACI_DATA = {
           box: "Beauty and Beast",
           resultados: {
             ragnarok: { reps: 965 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 135 }, //reps
+            "valhalla-a": { time: "02:44" }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -419,8 +419,8 @@ const SNACI_DATA = {
           box: "Snaci",
           resultados: {
             ragnarok: { reps: 968 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 134 }, //reps
+            "valhalla-a": { time: "03:22" }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -430,8 +430,8 @@ const SNACI_DATA = {
           box: "Beauty and Beast",
           resultados: {
             ragnarok: { reps: 956 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 107 }, //reps
+            "valhalla-a": { time: "03:58" }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
@@ -441,8 +441,8 @@ const SNACI_DATA = {
           box: "Templo Crossfitnes",
           resultados: {
             ragnarok: { reps: 966 }, //time o reps
-            //"valhalla-b": { reps: 180 }, //reps
-            //"valhalla-a": { time: "09:50" }, //time o reps
+            "valhalla-b": { reps: 127 }, //reps
+            "valhalla-a": { time: "03:48" }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
