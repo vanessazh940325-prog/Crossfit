@@ -80,7 +80,7 @@ const SNACI_DATA = {
           nombre: "VALKYRIES",
           box: "Coach Erick",
           resultados: {
-            //ragnarok: { time: "11:34" }, //time o reps
+            ragnarok: { reps: 1202 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 100 }, // reps
@@ -91,7 +91,7 @@ const SNACI_DATA = {
           nombre: "DROGONAS LUNARYS",
           box: "Dragons Crossfit",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { reps: 1037 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -102,7 +102,7 @@ const SNACI_DATA = {
           nombre: "PEAK PAIR",
           box: "Snaci",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { time: 1038 }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
@@ -113,7 +113,7 @@ const SNACI_DATA = {
           nombre: "ODISEAS TEAM",
           box: "Snaci",
           resultados: {
-            //ragnarok: { time: "12:34" }, //time o reps
+            ragnarok: { time: "12:03" }, //time o reps
             //"valhalla-b": { reps: 180 }, //reps
             //"valhalla-a": { time: "09:50" }, //time o reps
             //excalibur: { reps: 200 }, // reps
