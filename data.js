@@ -197,7 +197,7 @@ const SNACI_DATA = {
             ragnarok: { reps: 1253 }, //time o reps
             "valhalla-b": { reps: 308 }, //reps
             "valhalla-a": { time: "03:20" }, //time o reps
-            //excalibur: { reps: 200 }, // reps
+            excalibur: { reps: 173 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
         },
@@ -208,7 +208,7 @@ const SNACI_DATA = {
             ragnarok: { reps: 1042 }, //time o reps
             "valhalla-b": { reps: 273 }, //reps
             "valhalla-a": { time: "04:14" }, //time o reps
-            //excalibur: { reps: 200 }, // reps
+            excalibur: { reps: 125 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
         },
@@ -219,7 +219,7 @@ const SNACI_DATA = {
             ragnarok: { time: "11:53" }, //time o reps
             "valhalla-b": { reps: 280 }, //reps
             "valhalla-a": { time: "03:43" }, //time o reps
-            //excalibur: { reps: 200 }, // reps
+            excalibur: { reps: 155 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
         },
@@ -230,7 +230,7 @@ const SNACI_DATA = {
             ragnarok: { reps: 1251 }, //time o reps
             "valhalla-b": { reps: 279 }, //reps
             "valhalla-a": { time: "04:53" }, //time o reps
-            //excalibur: { reps: 200 }, // reps
+            excalibur: { reps: 73 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
         },
@@ -241,7 +241,7 @@ const SNACI_DATA = {
             ragnarok: { reps: 1244 }, //time o reps
             "valhalla-b": { reps: 293 }, //reps
             "valhalla-a": { time: "03:41" }, //time o reps
-            //excalibur: { reps: 200 }, // reps
+            excalibur: { reps: 94 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
         },
