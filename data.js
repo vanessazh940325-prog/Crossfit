@@ -258,7 +258,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
-        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true },
+        { id: "sorpresa", label: "FINAL", tipo: "time"},
       ],
       atletas: [
         {
@@ -318,7 +318,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
-        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true },
+        { id: "sorpresa", label: "FINAL", tipo: "time"},
       ],
       atletas: [
         {
@@ -378,7 +378,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
-        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true },
+        { id: "sorpresa", label: "FINAL", tipo: "time" },
       ],
       atletas: [
         {
