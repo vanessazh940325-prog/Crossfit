@@ -185,7 +185,7 @@ const SNACI_DATA = {
           resultados: {
             ragnarok: { reps: 1225 }, //time o reps
             "valhalla-b": { reps: 276 }, //reps
-            "valhalla-a": { time: "03:50" }, //time o reps
+            "valhalla-a": { time: "04:00" }, //time o reps
             excalibur: { reps: 161 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
           },
