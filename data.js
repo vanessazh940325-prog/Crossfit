@@ -269,7 +269,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 172 }, //reps
             "valhalla-a": { reps: 81 }, //time o reps
             excalibur: { reps: 147 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "06:20" },//time o reps
           },
         },
         {
@@ -280,7 +280,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 180 }, //reps
             "valhalla-a": { time: "05:50" }, //time o reps
             excalibur: { reps: 140 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "07:22" },//time o reps
           },
         },
         {
@@ -291,7 +291,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 182 }, //reps
             "valhalla-a": { reps: 70 }, //time o reps
             excalibur: { reps: 144 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "06:46" },//time o reps
           },
         },
         {
@@ -302,7 +302,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 160 }, //reps
             "valhalla-a": { reps: 74 }, //time o reps
             excalibur: { reps: 137 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "06:59" },//time o reps
           },
         }, 
       ],
