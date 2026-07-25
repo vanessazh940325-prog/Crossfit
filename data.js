@@ -132,7 +132,7 @@ const SNACI_DATA = {
         { id: "valhalla-b", label: "VALHALLA · PARTE B", tipo: "reps" },
         { id: "valhalla-a", label: "VALHALLA · PARTE A", tipo: "time" },
         { id: "excalibur", label: "EXCALIBUR", tipo: "reps" },
-        { id: "sorpresa", label: "FINAL", tipo: "time", oculto: true },
+        { id: "sorpresa", label: "FINAL", tipo: "time" },
       ],
       atletas: [
         {
@@ -143,7 +143,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 301 }, //reps
             "valhalla-a": { time: "04:13" }, //time o reps
             excalibur: { reps: 168 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "06:21" },//time o reps
           },
         },
         {
@@ -154,7 +154,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 307 }, //reps
             "valhalla-a": { time: "04:10" }, //time o reps
             excalibur: { reps: 143 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "05:23" },//time o reps
           },
         },
         {
@@ -176,7 +176,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 294 }, //reps
             "valhalla-a": { time: "03:56" }, //time o reps
             excalibur: { reps: 148 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "05:30" },//time o reps
           },
         },
         {
@@ -198,7 +198,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 308 }, //reps
             "valhalla-a": { time: "03:20" }, //time o reps
             excalibur: { reps: 173 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "05:48" },//time o reps
           },
         },
         {
@@ -220,7 +220,7 @@ const SNACI_DATA = {
             "valhalla-b": { reps: 280 }, //reps
             "valhalla-a": { time: "03:43" }, //time o reps
             excalibur: { reps: 155 }, // reps
-            //sorpresa: { time: "05:30" },//time o reps
+            sorpresa: { time: "07:05" },//time o reps
           },
         },
         {
