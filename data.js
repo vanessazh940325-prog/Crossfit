@@ -195,7 +195,7 @@ const SNACI_DATA = {
           box: "Beauty and Beast",
           resultados: {
             ragnarok: { reps: 1253 }, //time o reps
-            "valhalla-b": { reps: 108 }, //reps
+            "valhalla-b": { reps: 308 }, //reps
             "valhalla-a": { time: "03:20" }, //time o reps
             //excalibur: { reps: 200 }, // reps
             //sorpresa: { time: "05:30" },//time o reps
